@@ -1,0 +1,90 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    @font-face{
+        font-family: GE-Jarida;
+        src: url("fonts/GE-Jarida.otf");
+    }
+    @font-face{
+        font-family: msuighur;
+        src: url("fonts/msuighur.ttf");
+    }
+    html{
+        height: 100%;
+        background: linear-gradient(to bottom, red, white, black);
+        background-attachment: fixed;
+        box-sizing: content-box;
+    }
+    body{
+        height:  100%;
+    }
+    .container {
+        height: 100%;    
+        text-align: center;
+    }
+    .logo {
+        /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); */
+        display: block;
+        margin: 0 auto;
+        width: 400px;
+    }
+    h1 {
+        font-family: GE-Jarida, Arial, Helvetica, sans-serif;
+        font-size: 60px;
+        font-weight: bolder;
+        margin: auto;
+        color: #ffffff;
+        text-shadow: 4px 4px 8px #000000;
+        
+        
+    }
+    h2 {
+        font-family: 'msuighur', Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        color:#ffffff;    
+        text-shadow: 2px 2px 4px #000000;
+    }
+    h3 {
+        font-family: 'msuighur', Arial, Helvetica, sans-serif;
+        font-size: 45px;
+        font-weight: bold;
+        color:#ffffff;    
+        text-shadow: 2px 2px 4px #000000;
+    }
+    form {
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
+    input[type="text"], input[type="password"] {
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        width: 250px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        border-radius: 50px;
+        border: 1px solid #ccc;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    input[type="submit"], input[type="button"] {
+        background-color:#087648;
+        color: #fff;
+        border: none;
+        padding: 10px ;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-right: auto;
+        
+        font-family: 'Cairo', sans-serif;
+        font-size: 15px;
+        font-weight: bolder;
+        width: 250px;
+    }
+    input[type="submit"]:hover, input[type="button"]:hover {
+        background-color: #000cb3;
+    }
